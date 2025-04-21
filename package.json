@@ -41,6 +41,7 @@
 	"dependencies": {
 		"@shizodevs/baileys": "*",
 		"@shizodevs/wabotmodule": "*",
+		"@shizodevs/moonlight-frameworks": "*",
 		"@adiwajshing/keyed-db": "^0.2.4",
 		"awesome-phonenumber": "^7.4.0",
 		"axios": "^1.8.4",
