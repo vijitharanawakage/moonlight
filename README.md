@@ -33,7 +33,7 @@ Watch this video to see Moonlight in action and learn how to deploy it:
 
 [![YouTube Video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-Replace `VIDEO_ID` with the ID of the YouTube video you want to add.
+Available Soon...
 
 ### Heroku Deployment Area
 
