@@ -10,6 +10,31 @@ Welcome to the world of Moonlight, a third-party WhatsApp Bot designed to make y
 
 ## 🚀 Deployment
 
+### Termux Deployment 
+* Upgrade all packages
+  ```
+  apt update -y && apt upgrade -y
+  ```
+* Install prerequisite Packages
+  ```
+  pkg install libwebp -y && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install imagemagick -y
+  ```
+* Clone Bot Repository
+    ```
+    git clone https://github.com/shizothetechie/moonlight
+    ```
+* Select Bot directory
+  ```
+  cd moonlight
+  ```
+* Install Node Modules
+  ```
+  npm install
+  ```
+* Start Bot
+    ```
+    node .
+    ```
 ### Heroku Deployment
 
 Ready to deploy Moonlight in just a few clicks? Use the button below to deploy to Heroku:
