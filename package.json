@@ -10,8 +10,8 @@
 		"plugins": "plugins"
 	},
 	"scripts": {
-		"start": "node shizo.js",
-		"test": "node test.js",
+		"start": "node index.js",
+		"test": "node shizo.js",
 		"test2": "nodemon index.js"
 	},
 	"keywords": [
@@ -84,7 +84,8 @@
 		"url-regex-safe": "^4.0.0",
 		"yargs": "^17.7.2",
 		"yt-search": "^2.11.1",
-		"pastebin-js": "*"
+		"pastebin-js": "*",
+		"express": "^4.19.2"
 	},
 	"optionalDependencies": {
 		"@vitalets/google-translate-api": "^9.2.1",

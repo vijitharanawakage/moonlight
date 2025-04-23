@@ -50,5 +50,4 @@ function start(file) {
 			p.emit('message', line.trim())
 		})
 }
-
 start('shizo.js')

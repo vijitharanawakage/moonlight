@@ -35,6 +35,13 @@ Welcome to the world of Moonlight, a third-party WhatsApp Bot designed to make y
     ```
     node .
     ```
+
+### Render Deployment 
+* Prerequisite (Add creds.json in sessions folder) 
+
+- Click Below Button for direct Deployment
+[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render-moonlight.shizo.top)
+
 ### Heroku Deployment
 
 Ready to deploy Moonlight in just a few clicks? Use the button below to deploy to Heroku:
