@@ -23,6 +23,7 @@ import {
 	pluginFolder,
 	pluginFilter
 } from './lib/plugins.js'
+import express from 'express'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
@@ -31,6 +32,13 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 8443
 const { say } = cfonts
 const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
 //const { users, chats } = require(join(__dirname, './database.json'))
+const app = express()
+app.get('/', (req, res) => {
+    res.json({ status: 'Moonlight is Alive 🌕♥️' })
+})
+app.listen(8080, () => {
+  console.log('Moonlight is started 🌕♥️')
+})
 
 say('MoonLight\nWhatsApp BOT', {
 	font: 'chrome',
