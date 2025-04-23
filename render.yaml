@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: moonlight
+    env: node
+    buildCommand: "npm i"
+    startCommand: "node index.js"
+    plan: free
+    region: oregon
+    autoDeploy: true
