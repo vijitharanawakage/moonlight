@@ -13,7 +13,7 @@ const args = [join(__dirname, 'shizo.js'), ...process.argv.slice(2)]
 
 const app = express()
 app.get('/', (req, res) => {
-    res.json({ status: 'Alive' })
+    res.json({ status: 'Moonlight is Alive 🌕♥️' })
 })
 var isRunning = false
 /**
@@ -55,5 +55,7 @@ function start(file) {
 			p.emit('message', line.trim())
 		})
 }
-
+app.listen(8080, () => {
+  console.log('Moonlight is started 🌕♥️')
+})
 start('shizo.js')
