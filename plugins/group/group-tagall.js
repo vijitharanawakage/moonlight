@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, participants, isAdmin, isOwner, groupMetad
   m.reply(
     `▢ Group : *${groupMetadata.subject}*\n▢ Members : *${participants.length}*${text ? `\n▢ Message : ${text}\n` : ''}\n┌───⊷ *MENTIONS*\n` +
       users.map(v => '▢ @' + v.replace(/@.+/, '')).join`\n` +
-      '\n└──✪ GURU ┃ ᴮᴼᵀ ✪──',
+      '\nShizo Moonlight',
     null,
     {
       mentions: users,
