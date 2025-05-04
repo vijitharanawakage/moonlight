@@ -15,7 +15,7 @@ const formattedInfo = `
 *A Fully Featured WhatsApp Bot Loaded with Features 🎊*
 𝖲𝖳𝖠𝖱✨ :: ${repoData.stargazers_count}
 𝖥𝖮𝖱𝖪 🍽️ :: ${repoData.forks_count}
-𝖴𝖱𝖫 👻 :: ${repoData.html_url}
+𝖴𝖱𝖫 👻 :: https://github.com/shizothetechie/moonlight
 \`🚀 Key Features\`
 *Automated Messaging:* 𝙲𝚞𝚜𝚝𝚘𝚖 𝚛𝚎𝚜𝚙𝚘𝚗𝚜𝚎𝚜 𝚏𝚘𝚛 𝚟𝚊𝚛𝚒𝚘𝚞𝚜 𝚝𝚛𝚒𝚐𝚐𝚎𝚛𝚜.
 *Media Sharing ::* 𝙴𝚊𝚜𝚒𝚕𝚢 𝚜𝚑𝚊𝚛𝚎 𝚒𝚖𝚊𝚐𝚎𝚜, 𝚟𝚒𝚍𝚎𝚘𝚜, 𝚊𝚗𝚍 𝚏𝚒𝚕𝚎𝚜.
@@ -28,7 +28,7 @@ effectively.
 
 \`\`\`Enhance your WhatsApp experience with conn-BOT! 🍪\`\`\`
         `.trim();
-        singleUrlButton(conn, m, formattedInfo, global.copyright, "Open Repository ♥️", `${repoData.html_url}`)
+        singleUrlButton(conn, m, formattedInfo, global.copyright, "Open Repository ♥️", `https://github.com/shizothetechie/moonlight`)
      } else {
       await conn.reply(m.chat, 'Unable to fetch repository information.', m);
     }
