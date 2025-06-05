@@ -1,5 +1,5 @@
 import db from '../../lib/database.js'
-const { proto } = await (await import('@shizodevs/baileys')).default
+const { proto } = await (await import('baileys-elite')).default
 
 let handler = async (m, { text, conn }) => {
 	let id = m.isGroup ? m.chat : text ? `${text.includes('@') ? text : text + '@g.us'}` : ''

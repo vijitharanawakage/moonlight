@@ -1,5 +1,5 @@
 import db from '../../lib/database.js'
-import pkg from '@shizodevs/baileys';
+import pkg from 'baileys-elite';
 const { proto, WA_DEFAULT_EPHEMERAL, groupToggleEphemeral } = pkg;
 
 let handler = async (m, { conn, usedPrefix, command, args, isOwner, isBotAdmin, isAdmin, isROwner }) => {

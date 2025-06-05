@@ -12,14 +12,14 @@ import { format } from 'util'
 import { plugins } from './lib/plugins.js'
 import { smsg } from './lib/simple.js'
 
-/** @type {import('@shizodevs/baileys')} */
-const { getContentType } = (await import('@shizodevs/baileys')).default
+/** @type {import('baileys-elite')} */
+const { getContentType } = (await import('baileys-elite')).default
 
 const isNumber = x => typeof x === 'number' && !isNaN(x)
 /**
  * Handle messages upsert
  * @this {import('./lib/connection').Socket}
- * @param {import('@shizodevs/baileys').BaileysEventMap<unknown>['messages.upsert']} chatUpdate
+ * @param {import('baileys-elite').BaileysEventMap<unknown>['messages.upsert']} chatUpdate
  */
 export async function handler(chatUpdate) {
 	this.msgqueque = this.msgqueque || new Queque()
@@ -445,7 +445,7 @@ export async function handler(chatUpdate) {
 /**
  * Handle groups participants update
  * @this {import('./lib/connection').Socket}
- * @param {import('@shizodevs/baileys').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
+ * @param {import('baileys-elite').BaileysEventMap<unknown>['group-participants.update']} groupsUpdate 
  */
 export async function participantsUpdate({ id, participants, action }) {
 	if (opts['self']) return
@@ -456,7 +456,7 @@ export async function participantsUpdate({ id, participants, action }) {
 /**
  * Handle groups update
  * @this {import('./lib/connection').Socket}
- * @param {import('@shizodevs/baileys').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
+ * @param {import('baileys-elite').BaileysEventMap<unknown>['groups.update']} groupsUpdate 
  */
 export async function groupsUpdate(groupsUpdate) {
 	if (opts['self'])
@@ -477,7 +477,7 @@ export async function groupsUpdate(groupsUpdate) {
 
 /**
  * @this {import('./lib/connection').Socket}
- * @param {import('@shizodevs/baileys').BaileysEventMap<unknown>['messages.delete']} message 
+ * @param {import('baileys-elite').BaileysEventMap<unknown>['messages.delete']} message 
  */
 export async function deleteUpdate(message) {
 

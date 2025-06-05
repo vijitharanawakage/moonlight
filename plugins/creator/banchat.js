@@ -1,5 +1,5 @@
 import db from '../../lib/database.js'
-const { proto } = await (await import('@shizodevs/baileys')).default
+const { proto } = await (await import('baileys-elite')).default
 
 let handler = async (m, { args, conn }) => {
 	let id = args[0] ? args[0] : m.isGroup ? m.chat : ''

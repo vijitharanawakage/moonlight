@@ -3,7 +3,7 @@ const {
 	proto,
 	generateWAMessage,
 	areJidsSameUser
-} = (await import('@shizodevs/baileys')).default
+} = (await import('baileys-elite')).default
 
 export async function all(m, chatUpdate) {
 	if (m.isBaileys)

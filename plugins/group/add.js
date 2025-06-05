@@ -1,6 +1,6 @@
 import db from '../../lib/database.js'
 import { delay, ranNumb } from '../../lib/func.js'
-import { getBinaryNodeChild, getBinaryNodeChildren } from '@shizodevs/baileys'
+import { getBinaryNodeChild, getBinaryNodeChildren } from 'baileys-elite'
 
 let handler = async (m, { conn, text, participants }) => {
 	if (db.data.settings[conn.user.jid].restrict) throw `[ RESTRICTED ]`

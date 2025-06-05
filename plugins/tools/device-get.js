@@ -1,4 +1,4 @@
-import { getDevice } from '@shizodevs/baileys'
+import { getDevice } from 'baileys-elite'
 let handler = async (m) => {
 	m.reply(await getDevice(m.quoted ? m.quoted.id : m.key.id))
 }

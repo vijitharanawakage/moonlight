@@ -39,7 +39,7 @@
 	},
 	"license": "GPL-3.0-or-later",
 	"dependencies": {
-		"@shizodevs/baileys": "*",
+		"baileys-elite": "*",
 		"@shizodevs/wabotmodule": "*",
 		"@shizodevs/moonlight-frameworks": "*",
 		"@adiwajshing/keyed-db": "^0.2.4",
