@@ -2,7 +2,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
 process.on('uncaughtException', console.error)
 
 import './config.js'
-import '@shizodevs/moonlight-frameworks'
+import 'moonlight-core'
 import cfonts from 'cfonts'
 import Connection from './lib/connection.js'
 import Helper from './lib/helper.js'
