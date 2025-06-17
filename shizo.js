@@ -34,10 +34,10 @@ const { name, author } = require(join(__dirname, './package.json')) // https://w
 //const { users, chats } = require(join(__dirname, './database.json'))
 const app = express()
 app.get('/', (req, res) => {
-    res.json({ status: 'Moonlight is Alive 🌕♥️' })
+    res.json({ status: 'KING-SANDESH is Alive 🌕♥️' })
 })
 app.listen(8080, () => {
-  console.log('Moonlight is started 🌕♥️')
+  console.log('KING-SANDESH is started 🌕♥️')
 })
 
 say('MoonLight\nWhatsApp BOT', {
