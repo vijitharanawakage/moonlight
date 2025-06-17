@@ -46,7 +46,7 @@ apk update && apk upgrade && apk add git && apk add nodejs && apk add npm && git
 
 #### One-Command Installation
 ```bash
-apt update -y && apt upgrade -y && pkg install libwebp -y && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install imagemagick -y && git clone https://github.com/shizothetechie/moonlight && cd moonlight && npm install && node .
+apt update -y && apt upgrade -y && pkg install libwebp -y && pkg install git -y && pkg install nodejs -y && pkg install ffmpeg -y && pkg install imagemagick -y && git clone https://github.com/vijitharanawakage/moonlight && cd moonlight && npm install && node .
 ```
 </details>
 
